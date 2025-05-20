@@ -8,13 +8,13 @@ const UserCard =  ({user}) => {
 
     <h3>{user.name}</h3>
     <P>Email : {user.email}</P>
-    <P>Phone : {user.email}</P>
-    <P>Website : {user.email}</P>
-    <P>Company name : {user.email}</P>
+    <P>Phone : {user.phone}</P>
+    <P>Website : {user.website}</P>
+    <P>Company name : {user.company.name}</P>
 
 
     </div>
-    )
+    );
   
 };
 
