@@ -10,9 +10,17 @@ function App() {
     <Router>
       
       <Routes> 
-        <Route path = "/users" element = {<UsersPage/>} /> </Routes>
+
+        <Route path = "/users" element = {<UsersPage/>} /> 
+
+        </Routes>
       </Router>
-    {/* <div className="App">
+
+  );
+}
+
+      
+    <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
@@ -27,8 +35,7 @@ function App() {
           Learn React
         </a>
       </header>
-    </div> */}
-  );
-}
+    </div>
+
 
 export default App;
