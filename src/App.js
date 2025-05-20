@@ -1,9 +1,18 @@
 import logo from './logo.svg';
 import './App.css';
+import React from 'react';
+import UsersPage from './Pages/UsersPage';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 function App() {
   return (
-    <div className="App">
+
+    <Router>
+      
+      <Routes> 
+        <Route path = "/users" element = {<UsersPage/>} /> </Routes>
+      </Router>
+    {/* <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
@@ -18,7 +27,7 @@ function App() {
           Learn React
         </a>
       </header>
-    </div>
+    </div> */}
   );
 }
 
