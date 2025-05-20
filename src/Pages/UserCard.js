@@ -7,10 +7,10 @@ const UserCard =  ({user}) => {
     <div style = {{border: '1px solid black', padding: '10px', margin: '10px'}}>
 
     <h3>{user.name}</h3>
-    <P>Email : {user.email}</P>
-    <P>Phone : {user.phone}</P>
-    <P>Website : {user.website}</P>
-    <P>Company name : {user.company.name}</P>
+    <p>Email : {user.email}</p>
+    <p>Phone : {user.phone}</p>
+    <p>Website : {user.website}</p>
+    <p>Company name : {user.company.name}</p>
 
 
     </div>
